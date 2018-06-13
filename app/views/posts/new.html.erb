@@ -4,7 +4,7 @@
         <div class="col-md-8">
             <div class="well well-sm top-m2">
                 <form>
-                <div class="row">
+                <div class="row" style="border: solid black 2px; padding: 5px 0 5px 0; border-radius: 15px 50px;background-image: linear-gradient(to right, #72A82B 0%, #A7FA65 100%); box-shadow: 5px 5px 3px grey; color:white; padding: 5px 5px 5px 20px; text-shadow: 2px 2px 0px black;">
                     <div class="col-md-6">
                         
                              <div class="form-group">
@@ -21,7 +21,7 @@
                             <%= f.hidden_field(:user_id, value: "#{@user.id}") %>
                         </div>
                     <div class="col-md-12">
-                    <%= f.submit({:class=> 'btn btn-outline-primary'}) %>
+                    <%= f.submit({:class=> 'btn btn-dark'}) %>
                     </div>
                 </div>
                 </form>

@@ -750,11 +750,11 @@ nav.fill ul li a:hover:after {
 }
 
 .form-control{
-    border: 1px solid #b84492;
+    border: 1px solid black;
 }
 
 .form-control2{
-    border: 1px solid #b84492;
+    border: 1px solid black;
     width: 50%
 }
 
@@ -816,4 +816,8 @@ nav.fill ul li a:hover:after {
       background: #f1f5f9;
       color: #56688A;
       font-size: 12px;
+    }
+
+    .field{
+        width: 25%;
     }
